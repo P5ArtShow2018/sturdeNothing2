@@ -1,4 +1,5 @@
-
+var bg = undefined;
+var Spacesnd = undefined;
 
 function preload(){
   bg = loadImage("assets/maxresdefault.jpg"); 

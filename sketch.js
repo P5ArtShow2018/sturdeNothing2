@@ -1,17 +1,17 @@
 var bg = undefined;
-var Spacesnd = undefined;
+//var Spacesnd = undefined;
 
 function preload(){
   bg = loadImage("assets/maxresdefault.jpg"); 
 
-  Spacesnd = loadSound ("assets/Spacesnd.wav")
+ // Spacesnd = loadSound ("assets/Spacesnd.wav")
 }
 
 
 function setup() {
   createCanvas(1920,1080);
 
-  Spacesnd.play();
+//  Spacesnd.play();
 }
 
 function draw() {
